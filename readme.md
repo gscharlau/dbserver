@@ -27,16 +27,16 @@ Endpoint para teste: http://localhost:8080/servicos/transferencia
 
 Para testar o endpoint foi utilizado o Postman. A coleção contendo o método pode ser importado de: https://www.getpostman.com/collections/898719943f230e8b75d3
 
-####Validações
+#### Validações
 Para o método em questão foram validadas as seguintes situações:
 - Conta Origem válida (existente no banco);
 - Conta Destino válida;
 - Conta Origem com saldo suficiente para a transferência;
 
-####Testes
+#### Testes
 Utilização do MockMVC para teste do RestController com cobertura de código em aproximadamente 85% (segundo o Code Coverage do IntelliJ).
 
-####Melhorias
+#### Melhorias
 Como melhorias futuras, posso citar:
 - Validação de CPF para transferências;
 - Token / Autenticação para a realização da transferência;
